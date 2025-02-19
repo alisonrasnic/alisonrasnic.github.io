@@ -1,14 +1,15 @@
 @charset "UTF-8";
 body {
-	background-color: black;
-	font-family: "Helvetica", Arial, sans-serif;
-	color: white;
+	background-color: #020204;
+	font-family: 'Inter', Arial, sans-serif;
+	color: #FFFCD9;
 	font-size: 1.0em;
 }
 
 h1 {
 	font-size: 4.5em;
 	margin: auto;
+	padding: 20px;
 	text-align: center;
 }
 
@@ -16,26 +17,36 @@ p {
 }
 
 .sub-header {
+	display: flex;
+	align-items: center;
 	margin: auto;
 	width: 50%;
 }
 
 .summary {
+	margin: auto;
 	text-align: center;
-	background-color: #000000;
-	color: white;
+	width: 50%;
+	padding: 20px;
 }
 
 .skills {
-	background-color: #000000;
-	color: #FFFFFF;
+}
+
+.horizontal-ul ul {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.horizontal-ul ul li {
+	display: inline;
 }
 
 .center {
 	text-align: center;
 	margin: auto;
-	width: 50%;
-	padding: 10px;
 }
 
 .white-bg {
